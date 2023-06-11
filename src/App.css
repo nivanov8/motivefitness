@@ -1,38 +1,234 @@
-.App {
-  text-align: center;
+.card-deck .card {
+    max-width: 300px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.navbar-custom{
+    background-color: #DBCBC1;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.nav-link{
+    font-size: 1.3rem !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.motive-fitness {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
-.App-link {
-  color: #61dafb;
+.motive-text {
+    font-size: 1.5rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.submit{
+    margin-right: 2em;
 }
+
+.fitness-text {
+    transform: translateX(20px);
+    font-size: 1.5rem; 
+}
+
+.navbar-brand-size{
+    font-size: 4rem !important;
+}
+
+.navbar-brand{
+    margin-left: 2em;
+}
+
+.second{
+    float: left;
+    margin-right: 5em;
+    
+}
+
+.first{
+    float: left;
+    margin-right: 5em;
+    
+}
+
+.signup{
+    clear:both !important;
+    margin-left: 3em;
+    margin-top: 2em;
+}
+
+
+form{
+    margin-left: 3em;
+}
+.position{
+    margin-bottom: 0.5em;
+}
+
+.form-control{
+    width: 300px !important;
+}
+
+img {
+    max-width: 25%;
+    max-height:15%;
+    float: left;
+    margin-right: 3em;
+    margin-left: 3em;
+    border: 3px solid #000 !important;
+}
+
+hr{
+    height: 2px; 
+    width: 88%; 
+    margin: 0px 20px 0px 35px !important; 
+    background-color: black; 
+}
+
+.heading{
+    margin-left: 3em;
+    margin-bottom: 1em;
+    margin-top: 3em;
+}
+
+.trainer{
+    margin-bottom: 3em;
+}
+
+.smaller-button {
+    font-size: 12px;
+    padding: 5px 40px;
+}
+
+.alert {
+    border: 3px solid #000 !important;
+    border-radius: 10px !important;
+    background: rgba(255, 255, 255, 0.85) !important;
+    padding: 0.5rem 5rem; 
+    font-size: 20px;
+    color: black !important;
+}
+
+.smaller-container {
+    margin-bottom: 4em !important;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.btn{
+    border: 3px solid #000 !important;
+    border-radius: 10px !important;
+    box-sizing: border-box !important;
+    color: black !important;
+    background-color: #bfcead !important;
+}
+
+.heading2{
+    margin-left: 3em;
+    margin-top: 5em;
+}
+
+.table{
+    margin-left: 0em;
+}
+
+.cancel{
+    background-color: #DC8888 !important;
+}
+
+.noborder{
+    border: none !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    
+}
+
+
+.card{
+    border: 3px solid #000 !important;
+    border-radius: 10px !important;
+    background: rgba(255, 255, 255, 0.85) !important;
+}
+
+.invis{
+    visibility: hidden;
+}
+
+footer{
+    background-color: #DBCBC1;
+    padding: 10px;
+    margin-top: auto;
+    text-align: center;
+    box-shadow: 0px 10px 0px 0px white inset;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("https://d39l2hkdp2esp1.cloudfront.net/img/photo/123574/123574_00_2x.jpg?20170607065700") !important;
+    background-size: cover;
+}
+
+.mainDiv {
+    flex:1;
+    flex-grow:1;
+    
+}
+
+.card-body{
+    height:300px !important;
+}
+
+.whiteSpace{
+    background: rgba(255, 255, 255, 0.85);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.book{
+    background-image: url("https://t3.ftcdn.net/jpg/02/00/87/86/360_F_200878690_TcNFVjD7FqAR9gADMZrG8ygXQq86oVi7.jpg") !important;
+    background-size: cover;
+}
+
+.payementinfo{
+    background-image: url("https://as1.ftcdn.net/v2/jpg/02/93/21/02/1000_F_293210238_W2UBanjkECR27nz6ywTT54OowYmssRYF.jpg") !important;
+    background-size: cover;
+}
+
+.instructors{
+    background-image: url("https://media.istockphoto.com/id/1156690837/photo/enjoying-some-refreshment-after-gym.jpg?s=170667a&w=0&k=20&c=3ZLSxkE0DuN6_prrEjWeEZznpJOq84x6uq6um89vngY=") !important;
+    background-size: cover;
+}
+
+.login{
+    background-image: url("https://t4.ftcdn.net/jpg/01/79/81/77/360_F_179817756_QzTocli57q9G6a1Oe7kJtoMS5dNMU8cl.jpg") !important;
+    background-size: cover;
+}
+
+.signupPage{
+    background-image: url("https://images.pexels.com/photos/2036998/pexels-photo-2036998.jpeg?cs=srgb&dl=pexels-nathan-cowley-2036998.jpg&fm=jpg") !important;
+    background-size: cover;
+}
+
+.classes{
+    background-image: url("https://media.istockphoto.com/id/638029262/photo/young-woman-pulling-rope-at-gym.jpg?s=612x612&w=0&k=20&c=Br72zSECQkj5TAmv6asPuoIboNgCbC-ZEal2oy4qmMw=") !important;
+    background-size: cover;
+}
+
+.myaccount{
+    background-image: url("https://media.istockphoto.com/id/1370779226/photo/shot-of-a-sporty-young-woman-exercising-with-dumbbells-in-a-gym.jpg?s=612x612&w=0&k=20&c=rTxwhVz_gBlTcWgofWmVZvHtvuUhDbNn6bUPkzed6cc=") !important;
+    background-size: cover;
+}
+
+.confirmation{
+    background-image: url("https://wrcameronwellness.org/wp-content/uploads/2019/08/GettyImages-946028574.jpg") !important;
+    background-size: cover;
+}
+
+
+
+

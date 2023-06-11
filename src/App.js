@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import  Homepage  from "./Components/Homepage";
+import  Instructors  from "./Components/Instructors";
+import { Routes, Route } from "react-router-dom";
+import Login from "./Components/Login";
+import Signup from "./Components/Signup";
+import Classes from "./Components/Classes";
+import Book from './Components/Book'
+import Paymentinfo from './Components/Paymentinfo'
+import Confirmation from "./Components/Confirmation";
+import Myaccount from "./Components/Myaccount";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  return(
+    <>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/instructors" element={<Instructors />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/signup" element={<Signup />}/>
+        <Route path="/classes" element={<Classes />}/>
+        <Route path="/book" element={<Book />}/>
+        <Route path="/paymentinfo" element={<Paymentinfo />}/>
+        <Route path="/confirmation" element={<Confirmation />}/>
+        <Route path="/myaccount" element={<Myaccount />}/>
+      </Routes>
+    </>
+  )
+
 }
 
 export default App;
