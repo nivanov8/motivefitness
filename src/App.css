@@ -136,7 +136,10 @@ hr{
 }
 
 .table{
-    margin-left: 0em;
+    
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    
 }
 
 .cancel{
@@ -146,7 +149,6 @@ hr{
 .noborder{
     border: none !important;
     background-color: rgba(255, 255, 255, 0) !important;
-    
 }
 
 
