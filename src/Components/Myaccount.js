@@ -86,7 +86,7 @@ export function Myaccount(){
                         <br></br>
                         
                         <table class="table">
-                            <thead>
+                            <thead class="">
                                 <tr>
                                 <th scope="col" class = "noborder">Workout</th>
                                 <th scope="col" class = "noborder">Trainer</th>

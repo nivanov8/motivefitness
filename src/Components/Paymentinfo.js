@@ -35,7 +35,7 @@ export function Paymentinfo(){
                         {/* ALERT */}
                         <div class="smaller-container mt-5">
                             <div class="alert alert-primary text-center" role="alert">
-                                <h4 class="text-center"><strong> We are only accepting payments by credit card at this time</strong></h4>
+                                <h4 class="text-center"><strong> Now accepting credit and debit card!</strong></h4>
                             </div>
                         </div>
                     

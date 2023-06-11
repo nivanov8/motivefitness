@@ -82,7 +82,7 @@ export function Book(){
                                     </select>
                                 </div>
                                 <div class="mb-3">
-                                    <label for="exampleInputEmail1" class="form-label">Trainer</label>
+                                    <label for="exampleInputEmail1" class="form-label">Time</label>
                                     <select class="form-select" aria-label="Default select example">
                                         <option selected>Available times</option>
                                         <option value="1">10:00 AM</option>
@@ -95,8 +95,27 @@ export function Book(){
                         </form>
                         </div>
 
+                        
+                        
+                        <div class = "signup">
+                            <p>Bring a friend?</p>
+                            <div class="form-check mb-3 signup2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1"></input>
+                                <label class="form-check-label" for="flexRadioDefault1">
+                                    No
+                                </label>
+                                </div>
+                                <div class="form-check mb-3 signup2">
+                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked></input>
+                                <label class="form-check-label" for="flexRadioDefault2">
+                                    Yes
+                                </label>
+                            </div>
+                        </div>
+                        
+
                         <div>
-                            <div class="mb-3 signup">
+                            <div class="mb-3 signup ">
                                 <Link to="/paymentinfo" class="btn btn-primary">Confirm</Link>
                             </div>
                         </div>

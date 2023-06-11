@@ -54,7 +54,14 @@
 .signup{
     clear:both !important;
     margin-left: 3em;
-    margin-top: 2em;
+    margin-top: 6em;
+}
+
+.signup2{
+    clear:both !important;
+    margin-left: 0em;
+    margin-top: 1em;
+    margin-bottom: 3em;
 }
 
 
@@ -228,7 +235,6 @@ body{
     background-image: url("https://wrcameronwellness.org/wp-content/uploads/2019/08/GettyImages-946028574.jpg") !important;
     background-size: cover;
 }
-
 
 
 
