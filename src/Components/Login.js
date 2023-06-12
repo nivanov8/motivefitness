@@ -50,7 +50,7 @@ export function Login(){
                                 <input type="password" class="form-control" id="exampleInputPassword1"></input>
                             </div>
                             <div>
-                                <Link to="/myaccount" class="btn btn-primary submit">Submit</Link>
+                                <Link to="/myaccount" class="btn btn-primary submit">Login</Link>
                                 <Link to="/signup" class="btn btn-primary">Signup</Link>
                             </div>
                         </form>
