@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/motivefitness/static/css/main.5acc0169.css",
-    "main.js": "/motivefitness/static/js/main.6d13b66a.js",
+    "main.js": "/motivefitness/static/js/main.b8981bdd.js",
     "static/media/bootstrap-icons.woff?": "/motivefitness/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
     "static/media/bootstrap-icons.woff2?": "/motivefitness/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
     "index.html": "/motivefitness/index.html",
     "main.5acc0169.css.map": "/motivefitness/static/css/main.5acc0169.css.map",
-    "main.6d13b66a.js.map": "/motivefitness/static/js/main.6d13b66a.js.map"
+    "main.b8981bdd.js.map": "/motivefitness/static/js/main.b8981bdd.js.map"
   },
   "entrypoints": [
     "static/css/main.5acc0169.css",
-    "static/js/main.6d13b66a.js"
+    "static/js/main.b8981bdd.js"
   ]
 }
